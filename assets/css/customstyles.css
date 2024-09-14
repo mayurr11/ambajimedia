@@ -73,3 +73,15 @@
         transform: rotate(360deg);
     }
 }
+
+h5.gujarati-text {
+    font-family: 'Baloo Bhai 2', 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.modal-body ul.gujarati-text {
+    font-family: 'Baloo Bhai 2', 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    color: #000;
+}
