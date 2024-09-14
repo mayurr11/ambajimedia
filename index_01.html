@@ -8,41 +8,33 @@
     <title>Ambaji Media</title>
     <link rel="shortcut icon" href="assets/css/favicon.png" type="image/x-icon">
 
-    <!-- CSS Files -->
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/lightcase.css">
-    <link rel="stylesheet" href="assets/css/style.min.css">
 
-    <!-- Font Awesome (CDN version) -->
+    <!-- main css for template -->
+    <link rel="stylesheet" href="assets/css/style.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <link rel="stylesheet" href="assets/css/customstyles.css">
-    <!-- Bootstrap Icons (if needed) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-
 
 <body>
 
     <!-- ================> preloader start here <================ -->
-    <div class="preloader-container">
-        <div class="preloader-content">
-            <div class="preloader-logo">
-                <img src="assets/images/logo/logo_w.jpg" alt="Logo">
-                <div class="preloader-ring"></div> <!-- Rotating ring added here -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
             </div>
         </div>
     </div>
-    
-    
-    
-    
     <!-- ================> preloader ending here <================ -->
 
     <!-- ================> Header Search <================ -->
-    <!-- <div class="header-form">
+    <div class="header-form">
         <div class="bg-lay">
             <div class="cross">
                 <i class="fas fa-times"></i>
@@ -52,14 +44,16 @@
             <input type="text" placeholder="Input Your Search" name="name">
             <button type="submit">Search</button>
         </form>
-    </div> -->
+    </div>
     <!-- ================> Header Search <================ -->
 
     <!-- ================> Header Cart <================ -->
-    <!-- <div class="overlay"></div>
+    <div class="overlay"></div>
     <div class="cart-sidebar-area">
         <div class="top-content">
-            <img src="assets/images/logo/ambajimedia_logo.png" width="120px" alt="logo">
+             <img src="assets/images/logo/02.png" alt="logo"> 
+             <img src="assets/images/logo/ambajimedia_logo.png" alt="logo"> 
+
             <span class="side-sidebar-close-btn"><i class="fas fa-times"></i></span>
         </div>
         <div class="bottom-content">
@@ -119,8 +113,8 @@
                     <a href="check-out.html" class="default-btn move-right"><span>Checkout</span></a>
                 </div>
             </div>
-        </div> 
-    </div> -->
+        </div>
+    </div>
     <!-- ================> Header Cart <================ -->
 
 
@@ -136,7 +130,7 @@
                                 <ul>
                                     <li>
                                         <i class="fas fa-phone-alt"></i>
-                                        +91 89805 91400
+                                        +8812 345 678 912
                                     </li>
                                     <li>
                                         <i class="fas fa-envelope"></i>
@@ -146,7 +140,7 @@
                             </div>
                             <div class="header__top-center">
                                 <div class="header__top-logo d-none d-md-block">
-                                    <a href="index.html"><img src="assets/images/logo/ambajimedia_logo.png" width="120px" alt="logo"></a>
+                                    <a href="index.html"><img src="assets/images/logo/01.png" alt="logo"></a>
                                 </div>
                             </div>
                             <div class="header__top-right">
@@ -177,8 +171,8 @@
             <div class="container">
                 <div class="header__mainmenu navbar navbar-expand-xl navbar-light">
                     <div class="header__logo">
-                        <a href="index.html" class="d-none d-xl-block"><img src="assets/images/logo/ambajimedia_logo.png" width="120px" alt="logo"></a>
-                        <a href="index.html" class="d-xl-none"><img src="assets/images/logo/ambajimedia_logo.png" width="120px" alt="logo"></a>
+                        <a href="index.html" class="d-none d-xl-block"><img src="assets/images/logo/02.png" alt="logo"></a>
+                        <a href="index.html" class="d-xl-none"><img src="assets/images/logo/01.png" alt="logo"></a>
                     </div>
                     <div class="header__bar">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menubar" aria-controls="menubar" aria-expanded="false" aria-label="Toggle navigation">
@@ -262,7 +256,7 @@
     <div class="banner__slider banner-style3 overflow-hidden">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="banner" style="background-image: url(assets/images/banner/07.jpg);">
+                <div class="banner" style="background-image: url(./Madi\ Tara\ khole\ Mathu.jpg);">
                     <div class="container">
                         <div class="banner__content ms-lg-auto">
                             <h2 class="text-white">A Powerful Religon Theme</h2>
@@ -284,7 +278,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="banner" style="background-image: url(assets/images/banner/09.jpg);">
+                <div class="banner" style="background-image: url(MAA.jpg);">
                     <div class="container">
                         <div class="banner__content m-lg-auto text-lg-center">
                             <h2 class="text-white">Religion Can't Divide You And Others</h2>
@@ -339,7 +333,7 @@
 
 
     <!-- ================> Service section start here <================== -->
-    <div class="service padding--top padding--bottom">
+    <div class="service padding--top padding--bottom" id="services">
         <div class="container">
             <div class="section__header text-center">
                 <h2>Our Services</h2>
@@ -438,10 +432,10 @@
 
 
     <!-- ================> gallery section start here <================== -->
-    <div class="gallery padding--top padding--bottom bg-light">
+    <div class="gallery padding--top padding--bottom bg-light" id="gallery-section">
         <div class="container-fluid">
             <div class="section__header text-center">
-                <h2>Hindu Festival</h2>
+                <h2>Video Gallery</h2>
             </div>
             <div class="section__wrapper">
                 <div class="gallery__filter">
@@ -609,7 +603,7 @@
 
 
     <!-- ================> Event section start here <================== -->
-    <div class="event padding--top padding--bottom">
+    <div class="event padding--top padding--bottom" id="events-section">
         <div class="container">
             <div class="section__header text-center">
                 <h2>Recent Event</h2>
@@ -1108,8 +1102,7 @@
 
 
     <!-- ================> Cause section start here <================== -->
-    <!-- Important section because of header -->
-    <div class="cause padding--top padding--bottom bg-img" style="background: url(assets/images/bg-img/08.jpg) rgba(0,0,0,.4); display: none; ">
+    <!-- <div class="cause padding--top padding--bottom bg-img" style="background: url(assets/images/bg-img/08.jpg) rgba(0,0,0,.4);">
         <div class="container">
             <div class="section__header text-center">
                 <h2 class="text-white">Urgent Causes</h2>
@@ -1170,7 +1163,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- ================> Cause section end here <================== -->
 
 
@@ -1224,7 +1217,7 @@
 
 
     <!-- ================> Contact section start here <================== -->
-    <div class="contact padding--top padding--bottom bg-light">
+    <div class="contact padding--top padding--bottom bg-light" id="contact-us-section">
         <div class="container">
             <div class="section__header text-center">
                 <h2>Contact Us</h2>
@@ -1468,10 +1461,10 @@
             <div class="container">
                 <div class="footer__bottom-area text-center">
                     <div class="footer__bottom-logo">
-                        <a href="index.html"><img src="assets/images/logo/ambajimedia_logo.png" width="120px" alt="footer logo"></a>
+                        <a href="/"><img src="assets/images/logo/ambajimedia_logo.png" width="120px" alt="footer logo"></a>
                     </div>
                     <div class="footer__bottom-content">
-                        <p>Copyright &copy; 2022 <a href="index.html">Peace</a> | Designed by <a href="https://themeforest.net/user/codexcoder/portfolio">CodexCoder</a></p>
+                        <p>Copyright &copy; 2024 <a href="/">Peace</a> | Designed by <a href="https://themeforest.net/user/codexcoder/portfolio">CodexCoder</a></p>
                     </div>
                 </div>
             </div>
