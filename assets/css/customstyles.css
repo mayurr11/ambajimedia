@@ -56,6 +56,7 @@
 }
 
 
+
 /* Keyframes for glowing animation */
 @keyframes glow {
     0% {
@@ -92,6 +93,28 @@
     }
   }
 
+  .header__bottom {
+    background-color: rgb(255, 62, 62);
+  }
+
+  .location__right {
+    color: #fff;
+    background-color: rgb(255, 62, 62);
+  }
+
+  .footer__top {
+    background-color: rgb(255, 62, 62);
+    color: #fff;
+  }
+
+  .footer__top a {
+    color: #fff;
+  }
+
+  .service__text {
+    background-color: rgb(255, 62, 62);
+    color: #fff;
+  }
 .banner-text {
     font-family: "DM Sans", Arial, Helvetica, sans-serif;
     /* text-align: start; */
