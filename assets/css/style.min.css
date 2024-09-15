@@ -2119,6 +2119,7 @@ ul {
     background-size: cover;
     background-position: center right;
     padding: 150px 0;
+    text-align: center;
 }
 
 @media(min-width: 768px) {
@@ -2197,11 +2198,12 @@ ul {
 }
 
 .banner-style2 .banner__content h2 {
-    color: #fff
+    color: #000
 }
 
 .banner-style2 .banner__content p {
-    color: rgba(255, 255, 255, .9)
+    /* color: rgba(255, 255, 255, .9) */
+    color: #000
 }
 
 .banner-style3 .banner__content.text-lg-center h2 {
