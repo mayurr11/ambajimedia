@@ -1400,12 +1400,12 @@ ul {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease
+    transition: all 0.3s ease;
 }
 
 .scrollToTop i,
 .scrollToTop svg {
-    color: #fff
+    color: #000;
 }
 
 .scrollToTop:hover {
@@ -1414,7 +1414,7 @@ ul {
 
 .scrollToTop .pluse_1,
 .scrollToTop .pluse_2 {
-    background: #f1c152
+    background: #f1c152;
 }
 
 .scrollToTop .pluse_1::after,

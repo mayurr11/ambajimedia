@@ -59,7 +59,7 @@
                     width: null,
                     height: null,
                     maxWidth: 800,
-                    maxHeight: 500,
+                    maxHeight: 800,
                     forceWidth: false,
                     forceHeight: false,
                     liveResize: true,

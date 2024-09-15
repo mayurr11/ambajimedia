@@ -57,8 +57,11 @@
 
 /* line 37, ../scss/components/fonts/_font-lightcase.scss */
 .lightcase-icon-close:before {
-  content: '\e802';
+  font-family: 'FontAwesome';
+  content: '\f00d'; /* This is the FontAwesome 'times' (cross) icon */
+  font-size: 16px; /* Adjust the size as needed */
 }
+
 
 /* line 38, ../scss/components/fonts/_font-lightcase.scss */
 .lightcase-icon-prev:before {
