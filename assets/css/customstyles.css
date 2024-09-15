@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100..800&display=swap');
+
 /* Preloader container styling */
 .preloader-container {
     position: fixed;
@@ -21,15 +23,15 @@
 }
 
 .preloader-logo {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 0 5px #3498db; /* Initial glow */
+    /* box-shadow: 0 0 5px #ffffff;  */
     animation: glow 1.5s infinite; /* Glowing effect animation */
 }
 
@@ -41,7 +43,7 @@
     width: 100%;
     height: 100%;
     border: 6px solid rgba(0, 0, 0, 0.2); /* Outer ring color */
-    border-top: 6px solid #3498db; /* Color of the rotating part */
+    border-top: 6px solid #fc2323; /* Color of the rotating part */
     border-radius: 50%;
     animation: spin 1.5s linear infinite;
     box-sizing: border-box; /* Ensure border is included in dimensions */
@@ -49,39 +51,41 @@
 }
 
 /* Keyframes for glowing animation */
-/* @keyframes glow {
+@keyframes glow {
     0% {
-        box-shadow: 0 0 5px #3498db;
+        box-shadow: 0 0 5px #ffffff;
         transform: scale(1);
     }
     50% {
-        box-shadow: 0 0 20px #3498db; 
+        box-shadow: 0 0 20px #ffffff; 
         transform: scale(1.1);
     }
     100% {
-        box-shadow: 0 0 5px #3498db;
+        box-shadow: 0 0 5px #ffffff;
         transform: scale(1);
     }
-} */
+}
 
 /* Keyframes for rotating animation */
 @keyframes spin {
     0% {
+        box-shadow: 0 0 5px #ffffff;
         transform: rotate(0deg);
     }
     100% {
+        box-shadow: 0 0 20px #ffffff; 
         transform: rotate(360deg);
     }
 }
 
 h5.gujarati-text {
-    font-family: 'Baloo Bhai 2', 'Roboto', sans-serif;
+    font-family: 'Anek Gujarati', 'Roboto', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
 .modal-body ul.gujarati-text {
-    font-family: 'Baloo Bhai 2', 'Roboto', sans-serif;
+    font-family: 'Anek Gujarati', 'Roboto', sans-serif;
     font-size: 1.3rem;
     color: #000;
 }
