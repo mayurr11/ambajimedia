@@ -1640,7 +1640,11 @@ ul {
 }
 
 .header__bottom {
-    background: #f1c152
+    background: #fff;
+}
+
+.header__menu ul li a {
+    color: #f6f6f9;
 }
 
 @media(min-width: 1200px) {
