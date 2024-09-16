@@ -169,7 +169,7 @@ h5.gujarati-text {
     font-weight: 700;
 }
 
-.modal-body ul.gujarati-text {
+.modal-body ul  li{
     font-family: 'Anek Gujarati', 'Roboto', sans-serif;
     font-size: 1.3rem;
     color: #000;
