@@ -95,6 +95,31 @@
 
   .header__bottom {
     background-color: rgb(255, 62, 62);
+    color: #fff;
+  }
+
+  .header__menu ul li a {
+    color: #fff;
+  }
+
+  .navbar-toggler {
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    min-height: 3rem;
+    min-width: 3rem;
+    /* height: 100%5*/
+    /* min-width: 3rem%; */
+  }
+  .navbar-toggler i{
+    background-color: #fff;
+    color: #000;
+  }
+
+  .header__bar-info {
+    min-height: 3rem;
+    min-width: 3rem;
+    
   }
 
   .location__right {
